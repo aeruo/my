@@ -24,6 +24,120 @@ https://www.canva.com/colors/color-palettes/foil-covered-sneakers/
   scroll-behavior: smooth;
   transition: .5s;
 }
+
+.bg-animate{
+  background-size: cover;
+  background-position:center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1299%26quot%3b)' fill='none'%3e%3cpath d='M341.95996437638945 24.88171394609958L224.3440916221523 126.92700249917667 352.25336187441565 173.48216955771193z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1129.778551685045 294.3392685791708L1023.963272043105 355.4317487648204 1190.8710318706944 400.15454822111076z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M547.5804246622707 312.3724059804163L595.4741502344671 235.72642322281416 518.8281674768649 187.83269765061783 470.9344419046686 264.47868040822z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M210.51402928523578 309.1597259001877L195.01422366243557 371.32605076562646 296.0136137719938 363.49259676710744z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M260.96 421.34 a107.22 107.22 0 1 0 214.44 0 a107.22 107.22 0 1 0 -214.44 0z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M6.707984076666364 186.27057307539334L184.82427284389192 208.3128313566531 126.05247969537203 62.847538783049714z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M621.32 481.43 a108.58 108.58 0 1 0 217.16 0 a108.58 108.58 0 1 0 -217.16 0z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1351.366263803138 467.0668530299957L1430.28042829146 345.80286077797723 1304.115137967045 336.98052424766354z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1512.099786060156 495.3349428529972L1445.5890572953012 424.0109184446283 1440.7757616517872 561.845671617852z' fill='rgba(128%2c 128%2c 128%2c 0.1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1299'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
 .clip-1{
   clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 80%, 100% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.md *{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6 {
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.md h1 {
+  font-size: 2em;
+}
+
+.md h2 {
+  font-size: 1.5em;
+}
+
+.md h3 {
+  font-size: 1.17em;
+}
+
+.md h4 {
+  font-size: 1em;
+}
+
+.md h5 {
+  font-size: 0.83em;
+}
+
+.md h6 {
+  font-size: 0.67em;
+}
+
+/* Lists */
+.md ul, .md ol {
+  margin-bottom: 1em;
+}
+
+.md li {
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+.md a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.md a:hover {
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+.md blockquote {
+  margin: 0;
+  padding: 0 1em;
+  border-left: 4px solid #ccc;
+}
+
+/* Code */
+.md pre {
+  background-color: #ddd;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.md code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  background-color: #ddd;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* Tables */
+.md table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.md th, .md td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+.md th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Images */
+.md img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* Horizontal Rule */
+.md hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
 }
